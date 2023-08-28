@@ -146,7 +146,7 @@ def installAdditional():
     get_ipython().system(f'wget https://huggingface.co/gmk123/mhzs/raw/main/jubenchajian4_51.py -O {wb}/scripts/jubenchajian4_51.py')
     #Roop换脸插件
     if Roop:
-        gitDownload(f'https://github.com/s0md3v/sd-{w}-roop',f'{wb}/extensions/sd-{w}-roop')
+        gitDownload(f'https://github.com/mectuu/sd-{w}-roop',f'{wb}/extensions/sd-{w}-roop')
         print('Roop换脸启用')
     else:
         print('Roop换脸不启用')
